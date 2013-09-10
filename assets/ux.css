@@ -1,0 +1,144 @@
+
+a {
+  color: #777;
+}
+
+#chart{width: 100%;height: 420px}
+
+.loading {
+  display: inline-block;
+}
+.loading-grey {
+  width: 40px;
+  height: 18px;
+  background: url(http://img02.taobaocdn.com/tps/i2/T19ZHDXf4fXXc.LCDe-40-18.gif) no-repeat;
+}
+
+.header {
+  /*background: #3a7bed;*/
+  min-width: 960px;
+  height: 126px;
+  /*line-height: 126px;*/
+  overflow: hidden;
+}
+
+.header .logo {
+  font-size: 22px;
+  line-height: 34px;
+  color: black;
+  margin-left: 15px;
+  text-decoration: none;
+}
+.header .logo .iconfont {
+  font-size: 28px;
+}
+.header .header-right {
+  float: right;
+  padding-right: 10px;
+  color: #fff;
+}
+.header .header-right a {
+  margin-left: 15px;
+  /*color: #333;*/
+  text-decoration: none;
+}
+
+.main {
+  float: left;
+  width: 100%;
+}
+.inmain {
+  padding: 0 30px 10px 0;
+  min-height: 350px;
+  margin-left: 100px;
+}
+.menu{
+  margin-left: -100%;
+  background: #f5f5f5;
+  padding: 15px 0;
+  float: left;
+  display: inline;
+  width: 100px;
+  min-height: 350px;
+}
+
+
+.footer {
+  border-top: 1px solid #CBCBCB;
+  text-align: center;
+  padding: 30px 0;
+  line-height: 1em;
+}
+.footer .common a:hover,
+.footer .copyright a:hover,
+.footer .corp a:hover {
+  color: #F40;
+  text-decoration: underline;
+}
+.footer .char-num {
+  vertical-align: text-bottom;
+}
+.footer b.char-num {
+  vertical-align: top;
+  font-weight: normal;
+}
+.footer .common {
+  margin-bottom: 15px;
+}
+.footer .common a {
+  color: #606060;
+  padding: 0 7px;
+}
+.footer .corp {
+  margin: 15px 0;
+}
+.footer .corp a {
+  color: #606060;
+}
+.footer .corp .split {
+  color: #666;
+  padding-right: 10px;
+  padding-left: 5px;
+  border-right: 1px solid #d0d0d0;
+  border-left: none;
+}
+.footer .corp .nosplit {
+  border: none;
+  margin: 0 1px;
+  padding: 0;
+}
+.footer .corp .last-link {
+  border-right: none;
+  padding-right: 10px;
+  padding-left: 5px;
+}
+.footer .corp .corp-network {
+  color: #ACACAC;
+}
+.footer .copyright {
+  color: #acacac;
+}
+.footer .copyright-no {
+  margin-left: 20px;
+}
+.footer .sep {
+  color: #ACACAC;
+  margin: 5px 0;
+}
+.footer .copyright-alone .copyright-sign,
+.footer .copyright-alone .copyright-no {
+  display: block;
+  line-height: 1em;
+}
+.footer .copyright-alone .copyright-no {
+  margin-top: 10px;
+  margin-left: 0;
+}
+.footer .zuanshi-logo {
+  width: 89px;
+  height: 87px;
+  background: url(http://img03.taobaocdn.com/tps/i3/T15XvFXeNbXXX.NiPr-89-87.png) no-repeat;
+  _background: none;
+  _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://img03.taobaocdn.com/tps/i3/T15XvFXeNbXXX.NiPr-89-87.png', sizingMethod='crop');
+  margin: 20px auto 0;
+}
